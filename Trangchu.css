@@ -1,0 +1,52 @@
+/* style.css */
+/* Tổng quan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header {
+    background-color: #51082c; /* Màu nền header */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng cho header */
+}header h1 {
+    margin: 0;
+}
+/* Thanh điều hướng */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #555;
+}
+/* Các phần chung */
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+

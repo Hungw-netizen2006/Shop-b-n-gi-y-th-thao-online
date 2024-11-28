@@ -1,0 +1,146 @@
+/* Thiết lập font chữ mặc định và màu nền cho body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Màu nền nhẹ nhàng */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #51082c; /* Màu nền header */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng cho header */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+nav a:hover {
+    background: #555;
+}
+
+/* Section sản phẩm */
+section#featured {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Cấu trúc sản phẩm */
+.product {
+    display: inline-block;
+    width: 280px;
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.product:hover {
+    transform: translateY(-5px); /* Tạo hiệu ứng di chuyển nhẹ khi hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product .giaban {
+    font-size: 18px;
+    font-weight: bold;
+    color: #51082c;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+select {
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #51082c;
+    color: #fff;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Liên hệ */
+.contact {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact p {
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .product {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+}
