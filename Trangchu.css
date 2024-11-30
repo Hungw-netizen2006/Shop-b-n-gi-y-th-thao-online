@@ -1,52 +1,67 @@
-/* style.css */
-/* Tổng quan */
+/* Đặt kiểu font chữ toàn trang, loại bỏ khoảng cách mặc định cho body */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Thiết lập font chữ cho toàn trang */
+    margin: 0; /* Loại bỏ khoảng cách mặc định xung quanh trang */
+    padding: 0; /* Loại bỏ khoảng cách mặc định bên trong trang */
 }
+
 /* Header */
+/* Thiết lập giao diện cho phần đầu trang (header) */
 header {
-    background-color: #51082c; /* Màu nền header */
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng cho header */
-}header h1 {
-    margin: 0;
+    background-color: #51082c; /* Màu nền tím đậm cho header */
+    color: #fff; /* Màu chữ trắng */
+    text-align: center; /* Canh giữa nội dung header */
+    padding: 15px; /* Khoảng cách giữa nội dung và các cạnh header */
+    font-size: 24px; /* Kích thước chữ */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ nhẹ dưới header */
 }
+
+/* Thiết lập giao diện cho tiêu đề chính (h1) trong header */
+header h1 {
+    margin: 0; /* Loại bỏ khoảng cách mặc định của tiêu đề */
+}
+
 /* Thanh điều hướng */
+/* Định dạng cho thanh điều hướng */
 nav {
-    display: flex;
-    justify-content: center;
-    background: #444;
-    padding: 0.5rem;
+    display: flex; /* Sử dụng layout linh hoạt */
+    justify-content: center; /* Canh giữa các mục trong thanh điều hướng */
+    background: #444; /* Màu nền xám đậm */
+    padding: 0.5rem; /* Khoảng cách bên trong thanh điều hướng */
 }
+
+/* Định dạng cho liên kết trong thanh điều hướng */
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-    padding: 0.5rem 1rem;
-    transition: background 0.3s;
+    color: #fff; /* Màu chữ trắng */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    margin: 0 1rem; /* Khoảng cách ngang giữa các liên kết */
+    padding: 0.5rem 1rem; /* Khoảng cách bên trong từng liên kết */
+    transition: background 0.3s; /* Hiệu ứng chuyển đổi màu nền khi hover */
 }
+
+/* Hiệu ứng khi chuột di qua liên kết */
 nav a:hover {
-    background: #555;
+    background: #555; /* Thay đổi màu nền khi hover */
 }
+
 /* Các phần chung */
+/* Định dạng cho các khối nội dung chính (section) */
 section {
-    padding: 2rem;
-    margin: 2rem 0;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem; /* Khoảng cách bên trong khối nội dung */
+    margin: 2rem 0; /* Khoảng cách trên dưới giữa các section */
+    background-color: #f9f9f9; /* Màu nền sáng */
+    border-radius: 8px; /* Bo tròn các góc của section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ nhẹ cho section */
 }
+
 /* Footer */
+/* Định dạng cho phần cuối trang (footer) */
 footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
+    text-align: center; /* Canh giữa nội dung footer */
+    padding: 1rem; /* Khoảng cách bên trong footer */
+    background: #333; /* Màu nền xám đậm */
+    color: #fff; /* Màu chữ trắng */
 }
+
 
 
